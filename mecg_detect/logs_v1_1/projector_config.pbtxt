@@ -1,0 +1,4 @@
+embeddings {
+  tensor_name: "ultrasonic_embedding:0"
+  metadata_path: "C:\\EIT2018\\EIT2018_JUPYTER\\fecg_detect\\mecg_detect\\logs_v1_1\\metadata.tsv"
+}

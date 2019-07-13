@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\EIT2018\\EIT2018_JUPYTER\\fecg_detect\\fecg_detect\\logs_v1_1\\model.ckpt"
+all_model_checkpoint_paths: "C:\\EIT2018\\EIT2018_JUPYTER\\fecg_detect\\fecg_detect\\logs_v1_1\\model.ckpt"
