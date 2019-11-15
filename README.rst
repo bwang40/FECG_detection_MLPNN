@@ -9,7 +9,8 @@ Introduction
 =====================
 Fetal Electrocardiography (FECG) signal contains very meaningful information that would help doctors to make decision during pregnancy and labor. It is also an important indicator of the fetal status. However, extracting FECG from non-invasive sensors is not easy since the FECG signal is weak compared to the Maternal ECG (MECG) signal.  In conventional signal processing methods, it requires an adaptive filter with MECG signal and mixture Electrocardiography (ECG) signal to reveal the FECG signal. This procedure requires significant computation power and multiple sensors applied on the pregnant women. As machine learning algorithms become more and more popular, applying neural network to signal processing is widely adapted in all types of applications. This paper presents a method based on neural network to recognize FECG signal from abdominal ECG signal acquired by non-invasive sensors. In this paper, training and evaluation procedure are done in TensorFlow on a heterogeneous platform. This algorithm can precisely identify both MECG and FECG signal from a maternal abdominal ECG signal. 
 
-
+.. image:: https://github.com/bwang40/FECG_detection_MLPNN/blob/master/image/FECG1.png
+   :scale: 25
 
 This figure shows one channel of simulated signals by using FECGSYN in MATLAB. In this setup, the sample rate is set to 250 Hz; Mother’s heart rate is set to 90 beats per minute (bpm) and the fetal heart rate is set to 150 bpm. FECGSYN returns a simulated dataset contains 8 channels of maternal AECG data. The figure is the AECG signal with both MECG and FECG marked with different color. As shown in this figure, the third FECG is completely overlapped with the second MECG signal. The purpose of this algorithm is to detect FECG and MECG in maternal AECG signal by using MLP neural network algorithm.
 
