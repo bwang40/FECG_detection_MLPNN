@@ -30,10 +30,17 @@ In this paper, an MLP neural network algorithm is presented to detect the MECG a
 Reference
 ==================
 [1]	Solum, Thore & Ingemarsson, Ingemar & Nygren, Åke. (1980). The accuracy of abdominal ECG for fetal electronic monitoring. Journal of perinatal medicine. 8. 142-9. 10.1515/jpme.8.3.142, 1980.
+
 [2]	C. S. Lee, M. Masek, C. P. Lam and K. T. Tan, "Towards higher accuracy and better noise-tolerance for fetal heart rate monitoring using Doppler ultrasound," TENCON 2009 - 2009 IEEE Region 10 Conference, Singapore, pp. 1-6, 2009.
+
 [3]	D. Rassi, "Fetal heart monitoring by SQUID magnetometry," IEE Colloquium on Biomagnetic Methods in Medicine, London, pp. 8/1-8/3, 1993.
+
 [4]	Mart´ın Abadi, Ashish Agarwal, Paul Barham, Eugene Brevdo, Zhifeng Chen, Craig Citro, Greg S Corrado, Andy Davis, Jeffrey Dean, Matthieu Devin, et al., “Tensorflow: Large-scale machine learning on heterogeneous distributed systems,” arXiv preprint arXiv:1603.04467, 2016.
+
 [5]	Behar J., Andreotti F., Zaunseder S., Li Q., Oster J. and Clifford G D., An ECG model for simulating maternal-foetal activity mixtures on abdominal ECG recordings. Physiol Meas 35(8), pp.1537-50, 2014
+
 [6]	Andreotti F., Behar J., Zaunseder S.,Oster J. and Clifford G D., An Open-Source Framework for Stress-Testing Non-Invasive Foetal ECG Extraction Algorithms. Physiol Meas 37(5), pp. 627-648, 2016.
+
 [7]	B. Wang and J. Saniie, "Ultrasonic flaw detection based on temporal and spectral signals applied to neural network," 2017 IEEE International Ultrasonics Symposium (IUS), Washington, DC, pp. 1-4, 2017.
+
 [8]	B. Wang and J. Saniie, "Ultrasonic target echo detection using neural network," 2017 IEEE International Conference on Electro Information Technology (EIT), Lincoln, NE, pp. 286-290, 2017.
