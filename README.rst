@@ -18,10 +18,24 @@ This figure shows one channel of simulated signals by using FECGSYN in MATLAB. I
 
 Training the Neural Network with Tensorflow
 ====================================================
+The neural network training and evaluating process is done by using Google TensorFlow with GPU support [4]. A few python libraries are used to add visualization to the program. A desktop computer is used to run all the tests. It is a heterogeneous platform contains an Intel(R) Core(TM) i7-6700 CPU @ 3.4 GHz and a NVIDIA GeForce GTX 1070 @ 1.506 GHz as an algorithm accelerator.
 
+One of the most important steps of building a neural network is to properly prepare the training input datasets. As it is presented in the next figure, the AECG mixture signal will be passed into a FIFO to be buffered. For each iteration, a new data is inserted into the buffer at the beginning of the queue, the original data in the buffer will be shift towards the end of list by one. The data at the end of the list will be discarded. The data in the buffer will be used as the input of the neural network. By examine a single FECG and MECG signal, the buffer size is set to 30. After the data passed through the trained neural network, it is supposed to detect if there is a FECG or MECG signal in the AECG signal. 
+
+.. image:: ./image/FECG2.png
+   :align: center
 
 Result
 ===============
+.. image:: ./image/MECG1.png
+   :align: center
+MECG Training Data
+
+.. image:: ./image/MECGRESULT.png
+   :align: center
+MECG Detection Result
+
+
 
 
 
