@@ -35,6 +35,10 @@ MECG Training Data
    :align: center
 MECG Detection Result
 
+.. image:: ./image/FECGRESULT.png
+   :align: center
+FECG Detection Result
+
 
 
 
